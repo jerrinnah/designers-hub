@@ -522,18 +522,30 @@ button {
 .testimonial__container{
   display: flex;
   flex-direction: row;
-  width: 160px;
-  // background-color: aqua;
+  width: 260px;
+  // background-color: rgb(255, 115, 0);
 }
 .testimonial__client{
-  display: flex;
-  flex-direction: column;
-  width: 120px;
-  padding: 10px;
+  // display: flex;
+  // flex-direction: column;
+  width: 200px;
+  padding-left: 40px;
+//  background-color: aquamarine;
+}
+.testimonial__avi{
+  width: 90px;
 }
 .testimonial__name{
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 17px;
   font-weight: 600;
+}
+// .testimonial__details{
+//   width: 200px;
+//   // background-color: aqua;
+// }
+.testimonial__list{
+  display: flex;
+  // background-color: blue;
 }
