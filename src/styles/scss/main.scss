@@ -7,6 +7,7 @@
   /* colors */
   --body-color: #000000;
   --text-color: rgb(255, 255, 255);
+  --theme-color: #00ffff;
 
   /* font */
   --body-font: "Roboto Serif", sans-serif;
@@ -225,7 +226,7 @@ button {
 
 .slider__subtitle-btn--white {
   color: white;
-  background-color: rgb(50, 19, 226);
+  background-color: var(--theme-color);
 }
 .slider__subtitle-btn--black {
   color: white;
@@ -368,7 +369,7 @@ button {
   align-content: center;
 }
 .course__btn{
-  background-color: aqua;
+  background-color: var(--theme-color);
   height: 47px;
   width: 138px;
   margin-top: 20px;
@@ -436,7 +437,7 @@ button {
 .about-btn{
     height: 40px;
     width: 119px;
-    background-color: aqua;
+    background-color: var(--theme-color);
 }
 
 
@@ -476,7 +477,7 @@ button {
 .why__button{
   height: 40px;
     width: 119px;
-    background-color: aqua;
+    background-color: var(--theme-color);
     margin-top: 30px;
 }
 
@@ -558,4 +559,72 @@ button {
   margin-left: 90px;
  
   
+}
+
+// RESTIMONIAL END 
+
+.subscribe{
+ min-height: 805px;
+ width: 100%;
+ background-color: rgb(0, 0, 0);
+
+}
+.subscribe__bg-image{
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+  justify-content: center;
+  background-image: url(/public/assets/images/bg-v.png);
+  height: 700px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  margin-right: 330px;
+}
+// .subscribe{
+//   display: flex;
+//   align-content: center;
+//   flex-direction: column;
+  
+// }
+.subscribe__title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subscribe__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 3748px;
+  margin-right: 40px;
+  margin-left: 877px;
+  margin-top: 40px;
+  color: #ffffff;
+
+  // background-color: #ffffff;
+}
+.newsletter__container{
+  margin-top: 30px;
+}
+.newsletter__placeholder{
+  height: 40px;
+  width: 400px;
+  margin-bottom: 20px;
+  border-style: solid;
+  
+}
+.newsletter__message{
+  height: 190px;
+  width: 400px;
+  margin-bottom: 20px;
+  border-style: solid;
+  
+}
+.newsletter__send-button{
+  
+  height: 50px;
+  width: 200px;
+  background-color: var(--theme-color);
 }
