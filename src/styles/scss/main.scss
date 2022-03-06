@@ -71,6 +71,7 @@ button {
 /* helper classes */
 
 .container {
+  
   max-width: 1440px;
   height: 805;
   padding-left: 25px;
@@ -110,7 +111,7 @@ button {
 
 /* full body section */
 .body {
-  color: brown;
+  color: rgb(0, 0, 0);
   background-color: var(--body-color);
   font-weight: 100;
 }
@@ -120,7 +121,7 @@ button {
   padding-top: 20px;
   color: rgb(223, 223, 223);
   font-size: 12px;
-  /* background-color: rgb(255, 153, 0); */
+   background-color: rgb(255, 153, 0); 
   width: 100%;
   height: 60px;
 }
@@ -564,7 +565,7 @@ button {
 // RESTIMONIAL END 
 
 .subscribe{
- min-height: 805px;
+ min-height: 700px;
  width: 100%;
  background-color: rgb(0, 0, 0);
 
@@ -574,7 +575,7 @@ button {
   flex-direction: row;
   color: #ffffff;
   justify-content: center;
-  background-image: url(/public/assets/images/bg-v.png);
+  background-image: url(/assets/images/bg-v.png);
   height: 700px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -630,8 +631,125 @@ button {
 }
 
 .footer{
-  height: 804px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+  height: 304px;
   background-color: var(--theme-color);
   margin-bottom: 40px;
-  margin-top: 20px;
+  // margin-top: 107px;
 }
+.footer__list{
+  font-size: 12px;
+}
+.footer__list-item{
+  margin-top: 10px;
+}
+.footer__title{
+  font-size: 15px;
+}
+.footer__signup-email{
+  border-style: solid;
+  height: 20px;
+}
+.footer__social-media{
+  padding-top: 10px;
+
+}
+.footer__social-icons{
+  width: 200px;
+  padding-left: 0px;
+}
+
+/* media queries */
+/* 320px — 480px: Mobile devices */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+}
+
+/* 481px — 768px: iPads, Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+}
+
+/* 769px — 1024px: Small screens, laptops */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+/* 1025px — 1200px: Desktops, large screens */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+}
+
+/* 1201px and more —  Extra large screens, TV */
+@media screen and (min-width: 1201px) {
+  .header__nav{
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+  }
+  // SLIDER SECTION 
+  .slider{
+    // margin-top: 90px;
+    margin-bottom: 20px;
+    
+  }
+  .slider__left-column{
+    margin-top: 140px;
+ 
+  }
+  
+
+  // BORDER SECTION 
+  .slider__left-section{
+    width: 140px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: groove;
+    position: relative;
+    left: 704px;
+    top: 259px;
+  }
+
+  // CHANGES ITEM 
+.changes{
+  display: flex;
+}
+
+  .changes-item{
+    padding-top: 180px;
+    background-color: #00ffff;
+  }
+  .changes__item-icon{
+    padding-top: 80px;
+    padding-left: 20px;
+    margin-left: 120px;
+  }
+
+  // COURSE SECTION 
+  .course__tabs{
+    display: flex;
+    // background-color: #00ffff;
+  }
+  .course__text-container{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .course__containers{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  }
+
+  // ABOUT SECTION 
+  .about{
+    display: flex;
+    padding-top: 20px;
+  }
+  .about__image{
+    // width: 400px; 
+    /* position: absolute; */
+    /* top: 1700px; */
+    // left: 640px;
+}
+}
+  
